@@ -23,6 +23,7 @@
     * Vordefinierte Variablen: Alle vordefinierten Variablen aus EGPCS (Environment, GET, POST, Cookie, Server).
   
 * **Wozu dienen folgende Optionen in der PHP.INI:**
+
   * **PHP-Fehler ausgeben**: Diese Option gibt an, ob PHP-Fehler direkt im Browser angezeigt werden sollen. 
 
   * **Speichernutzung und die Laufzeit deiner Skripte limitieren**: Setzt das maximale Speicherlimit, das ein Skript verwenden darf. Legt die maximale Ausführungszeit eines Skripts in Sekunden fest. Dies verhindert, dass Skripte zu lange laufen und den Server blockieren.
