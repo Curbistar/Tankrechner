@@ -21,17 +21,16 @@
     * PHP-Lizenz: Informationen zur PHP-Lizenz.
     * Umgebungsvariablen: Details zu den Umgebungsvariablen, die auch in $_ENV verfügbar sind.
     * Vordefinierte Variablen: Alle vordefinierten Variablen aus EGPCS (Environment, GET, POST, Cookie, Server).
-  <br>
+  
 * **Wozu dienen folgende Optionen in der PHP.INI:**
-  <br>
   * **PHP-Fehler ausgeben**: Diese Option gibt an, ob PHP-Fehler direkt im Browser angezeigt werden sollen. 
-  <br>
+
   * **Speichernutzung und die Laufzeit deiner Skripte limitieren**: Setzt das maximale Speicherlimit, das ein Skript verwenden darf. Legt die maximale Ausführungszeit eines Skripts in Sekunden fest. Dies verhindert, dass Skripte zu lange laufen und den Server blockieren.
-  <br>
+
   * **allow_url_fopen = off**: Diese Option aktiviert oder deaktiviert die Fähigkeit von PHP, Dateien über URL-Wrapper wie HTTP oder FTP zu öffnen. Wenn allow_url_fopen auf off gesetzt ist, können keine externen Dateien über URLs geöffnet werden, was ein Sicherheitsrisiko minimiert. 
-  <br>
+
   * **safe-mode = on**:  Diese Option war eine Sicherheitsfunktion, die bestimmte PHP-Funktionen einschränkte, um potenzielle Sicherheitslücken zu schließen. Sie wurde jedoch in PHP 5.4.0 entfernt und sollte nicht mehr verwendet werden.
-  <br>
+
   * **session.auto_start = off**: Diese Option gibt an, ob PHP automatisch eine Sitzung startet, wenn ein Skript ausgeführt wird. Wenn session.auto_start auf off gesetzt ist, muss die Sitzung manuell mit session_start() gestartet werden
 
 ***
