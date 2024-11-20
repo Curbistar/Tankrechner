@@ -12,7 +12,7 @@
 
 ## Fragen und Antworten
 *	**Welche Informationen liefert die Funktion phpinfo();**
-<br>
+
     * PHP-Version: Zeigt die aktuell installierte PHP-Version an.
     * Server-Informationen: Details zum Webserver und  Betriebssystem.
     * PHP-Umgebung: Informationen über die PHP-Umgebung und die geladenen Module.
